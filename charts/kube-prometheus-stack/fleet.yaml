@@ -2,11 +2,11 @@ diff:
   comparePatches:
     - apiVersion: admissionregistration.k8s.io/v1beta1
       kind: MutatingWebhookConfiguration
-      name: aaaa-charts-kube-prometheu-admission 
+      name: fork-prometheus-charts-kube-prometheu-admission 
       jsonPointers:
         - "/webhooks"
     - apiVersion: admissionregistration.k8s.io/v1beta1
       kind: ValidatingWebhookConfiguration
-      name: aaaa-charts-kube-prometheu-admission 
+      name: fork-prometheus-charts-kube-prometheu-admission 
       jsonPointers:
         - "/webhooks"
